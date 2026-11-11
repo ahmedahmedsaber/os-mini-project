@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | The Restaurant</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark px-3">
+      <a class="navbar-brand" href="index.html">The Restaurant</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">☰</button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link active" href="menu.html">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservation.html">Book a Table</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+        </ul>
+      </div>
+    </nav>
+    <h1>Our Menu</h1>
+  </header>
+
+  <main class="container">
+    <section>
+      <table border="1">
+        <tr>
+          <th>Category</th>
+          <th>Dish</th>
+          <th>Price (EGP)</th>
+        </tr>
+        <tr>
+          <td rowspan="2"><strong>Starters</strong></td>
+          <td>Hummus</td>
+          <td>80</td>
+        </tr>
+        <tr>
+          <td>Fattoush Salad</td>
+          <td>90</td>
+        </tr>
+        <tr>
+          <td rowspan="3"><strong>Grill</strong></td>
+          <td>Kufta</td>
+          <td>260</td>
+        </tr>
+        <tr>
+          <td>Shawerma</td>
+          <td><mark>180</mark></td>
+        </tr>
+        <tr>
+          <td>Shish Tawook</td>
+          <td>220</td>
+        </tr>
+        <tr>
+          <td colspan="3">Free bread with every <em>main dish</em></td>
+        </tr>
+      </table>
+    </section>
+
+    <section>
+      <h2>Good to Know</h2>
+      <ul>
+        <li>Vegetarian options are available</li>
+        <li>Please tell us about any allergies</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 The Restaurant | Ahmed Ahmed Saber (224113179)</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
